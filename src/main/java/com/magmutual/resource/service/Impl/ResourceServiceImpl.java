@@ -1,22 +1,16 @@
 package com.magmutual.resource.service.Impl;
 
 
-import com.magmutual.resource.expeption.InvalidRequestException;
+import com.magmutual.resource.exception.InvalidRequestException;
 import com.magmutual.resource.model.SearchResourceRequestBody;
 import com.magmutual.resource.repo.ResourceRepository;
 import com.magmutual.resource.repo.model.User;
 import com.magmutual.resource.service.ResourceService;
-import com.opencsv.CSVReader;
-import com.opencsv.CSVReaderBuilder;
 import com.opencsv.exceptions.CsvValidationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-import java.io.Reader;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,6 +1,4 @@
-package com.magmutual.resource.expeption;
-
-import java.util.Map;
+package com.magmutual.resource.exception;
 
 public class ErrorResponse {
     private int statusCode;

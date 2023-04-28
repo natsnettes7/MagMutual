@@ -1,4 +1,4 @@
-package com.magmutual.resource.expeption;
+package com.magmutual.resource.exception;
 
 public class UserNotFoundException extends RuntimeException {
 

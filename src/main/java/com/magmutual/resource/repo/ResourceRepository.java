@@ -1,7 +1,7 @@
 package com.magmutual.resource.repo;
 
-import com.magmutual.resource.expeption.InvalidRequestException;
-import com.magmutual.resource.expeption.UserNotFoundException;
+import com.magmutual.resource.exception.InvalidRequestException;
+import com.magmutual.resource.exception.UserNotFoundException;
 import com.magmutual.resource.repo.model.User;
 
 import com.opencsv.CSVReader;

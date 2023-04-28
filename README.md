@@ -8,10 +8,11 @@ Maven 3.x
 
 **Running the Application:** To run the application,
 
-
-execute the following
-
-http://localhost:8080/index
+1. Build the application:
+execute the mvn clean install command in the project directory.
+2. Run the application:
+execute the mvn spring-boot:run command in the project directory.
+3. http://localhost:8080/index
 
 This will start the application on http://localhost:8080
 
