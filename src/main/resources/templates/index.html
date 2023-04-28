@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href = "/static/css/styles.css" rel = "stylesheet"/>
+  <title>User detail Spring </title>
+</head>
+<body>
+<div class="topnav">
+  <div class="search-container1">
+    <form>
+      <button class="button button1" id="multipleSubButton">Search</button>
+      <input type="text" id="searchId" name="searchId" placeholder="Id.."  size="8">
+      <input type="text" id="searchProfession" name="searchProfession" placeholder="profession.." size="10">
+      <input type="text" id="searchEmail" name="searchEmail" placeholder="Email.." size="10">
+    </form>
+  </div>
+  <div class="search-container2">
+    <form>
+      <button class="button button1" id="dateRangeSubButton">Search by Created Date range</button>
+      <input type="text" id="searchFrom" name="searchFrom" placeholder="from date(yyyy-mm-dd)">
+      <input type="text" id="searchTo" name="searchTo" placeholder="to date(yyyy-mm-dd)">
+
+    </form>
+  </div>
+
+</div>
+
+
+<div id="table-container" class="table-responsive" style="max-height: 500px;">
+
+</div>
+<script src="/static/js/get-users2.js"></script>
+
+</body>
+</html>
