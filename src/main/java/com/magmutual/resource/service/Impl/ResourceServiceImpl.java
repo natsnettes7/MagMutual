@@ -25,7 +25,6 @@ public class ResourceServiceImpl implements ResourceService {
     @Autowired
     ResourceRepository repository;
 
-//private static final String CSV_FILE_PATH = "/Users/natsnetg/Desktop/MagMutual/UserInformation.csv";
     List<User> users = new ArrayList<>();
     @Override
 

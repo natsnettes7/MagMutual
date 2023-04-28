@@ -29,7 +29,7 @@ public class ResourceController {
 
     @GetMapping("/id/{id}")
     public ResponseEntity<User> getResourceById(@PathVariable("id") Long id) {
-        //Logger.info("Employee find: id={}", id);
+        LOGGER.info("Employee find: id={}", id);
         try {
             return new ResponseEntity<>(resourceServiceImpl.getById(id), HttpStatus.OK);
         } catch (CsvValidationException e) {
@@ -47,7 +47,7 @@ public class ResourceController {
 
     @GetMapping("/profession/{profession}")
     public ResponseEntity<List<User>> getResourcesByProfession(@PathVariable String profession) {
-
+        LOGGER.info("Employee find: profession={}", profession);
         return new ResponseEntity<>(repository.getResourcesByProfession(profession), HttpStatus.OK);
 
     }
